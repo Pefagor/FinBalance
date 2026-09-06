@@ -1,0 +1,42 @@
+{
+  "type": "json_schema",
+  "name": "financial_recommendations",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "recommendations": {
+        "type": "array",
+        "description": "От 0 до 3 наиболее полезных персональных финансовых рекомендаций.",
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "properties": {
+            "category": {
+              "type": "string",
+              "description": "Категория расходов, на основании которой сформирована рекомендация."
+            },
+            "title": {
+              "type": "string",
+              "description": "Короткий заголовок рекомендации."
+            },
+            "text": {
+              "type": "string",
+              "description": "Краткий персонализированный текст рекомендации."
+            }
+          },
+          "required": [
+            "category",
+            "title",
+            "text"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "recommendations"
+    ],
+    "additionalProperties": false
+  }
+}

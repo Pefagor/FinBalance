@@ -1,0 +1,655 @@
+{
+  "statement": {
+    "period": {
+      "from": "2026-06-01",
+      "to": "2026-06-30"
+    },
+    "currency": "RUB",
+    "opening_balance": 2134.43,
+    "total_income": 60600.0,
+    "total_expenses": 25658.93,
+    "closing_balance": 37075.5
+  },
+  "transactions": [
+    {
+      "date": "2026-06-01",
+      "time": "08:50",
+      "type": "expense",
+      "category": "Транспорт",
+      "description": "IZHGET_TPP IZHEVSK RUS",
+      "amount": 45.0,
+      "currency": "RUB",
+      "balance_after": 2089.43
+    },
+    {
+      "date": "2026-06-01",
+      "time": "13:00",
+      "type": "expense",
+      "category": "Транспорт",
+      "description": "IZHGET_TPP IZHEVSK RUS",
+      "amount": 45.0,
+      "currency": "RUB",
+      "balance_after": 2044.43
+    },
+    {
+      "date": "2026-06-02",
+      "time": "08:44",
+      "type": "expense",
+      "category": "Рестораны и кафе",
+      "description": "KHLEBNICA IZHEVSK RUS",
+      "amount": 55.0,
+      "currency": "RUB",
+      "balance_after": 1989.43
+    },
+    {
+      "date": "2026-06-02",
+      "time": "08:45",
+      "type": "expense",
+      "category": "Транспорт",
+      "description": "IZHGET_TPP IZHEVSK RUS",
+      "amount": 45.0,
+      "currency": "RUB",
+      "balance_after": 1944.43
+    },
+    {
+      "date": "2026-06-02",
+      "time": "11:40",
+      "type": "expense",
+      "category": "Транспорт",
+      "description": "IZHGET_TPP IZHEVSK RUS",
+      "amount": 45.0,
+      "currency": "RUB",
+      "balance_after": 1899.43
+    },
+    {
+      "date": "2026-06-02",
+      "time": "14:14",
+      "type": "expense",
+      "category": "Прочие расходы",
+      "description": "SBER*5411*SAMOKAT SANKT-PETERBU RUS",
+      "amount": 328.0,
+      "currency": "RUB",
+      "balance_after": 1571.43
+    },
+    {
+      "date": "2026-06-02",
+      "time": "18:51",
+      "type": "expense",
+      "category": "Супермаркеты",
+      "description": "MAGNIT MM NESTERKOVO IZHEVSK RUS",
+      "amount": 435.94,
+      "currency": "RUB",
+      "balance_after": 1135.49
+    },
+    {
+      "date": "2026-06-03",
+      "time": "11:17",
+      "type": "income",
+      "category": "Перевод на карту",
+      "description": "Перевод от К. Татьяна Александровна",
+      "amount": 10000.0,
+      "currency": "RUB",
+      "balance_after": 11135.49
+    },
+    {
+      "date": "2026-06-03",
+      "time": "14:31",
+      "type": "expense",
+      "category": "Прочие расходы",
+      "description": "MISTER KARANDASH IZHEVSK RUS",
+      "amount": 90.0,
+      "currency": "RUB",
+      "balance_after": 11045.49
+    },
+    {
+      "date": "2026-06-04",
+      "time": "14:29",
+      "type": "expense",
+      "category": "Супермаркеты",
+      "description": "FIXPRICE 2691 IZHEVSK RUS",
+      "amount": 87.0,
+      "currency": "RUB",
+      "balance_after": 10958.49
+    },
+    {
+      "date": "2026-06-04",
+      "time": "14:33",
+      "type": "expense",
+      "category": "Рестораны и кафе",
+      "description": "SPP 23102 IZHEVSK RUS",
+      "amount": 301.0,
+      "currency": "RUB",
+      "balance_after": 10657.49
+    },
+    {
+      "date": "2026-06-04",
+      "time": "20:06",
+      "type": "expense",
+      "category": "Супермаркеты",
+      "description": "MAGNIT MM NESTERKOVO IZHEVSK RUS",
+      "amount": 958.98,
+      "currency": "RUB",
+      "balance_after": 9698.51
+    },
+    {
+      "date": "2026-06-05",
+      "time": "15:09",
+      "type": "expense",
+      "category": "Оплата по QR–коду СБП",
+      "description": "skvn",
+      "amount": 299.0,
+      "currency": "RUB",
+      "balance_after": 9399.51
+    },
+    {
+      "date": "2026-06-05",
+      "time": "15:21",
+      "type": "expense",
+      "category": "Транспорт",
+      "description": "IZHGET_TPP IZHEVSK RUS",
+      "amount": 45.0,
+      "currency": "RUB",
+      "balance_after": 9354.51
+    },
+    {
+      "date": "2026-06-05",
+      "time": "15:22",
+      "type": "expense",
+      "category": "Супермаркеты",
+      "description": "VKUSVILL MOSCOW RUS",
+      "amount": 633.0,
+      "currency": "RUB",
+      "balance_after": 8721.51
+    },
+    {
+      "date": "2026-06-06",
+      "time": "10:14",
+      "type": "expense",
+      "category": "Транспорт",
+      "description": "IZHGET_TPP IZHEVSK RUS",
+      "amount": 45.0,
+      "currency": "RUB",
+      "balance_after": 8676.51
+    },
+    {
+      "date": "2026-06-06",
+      "time": "19:46",
+      "type": "expense",
+      "category": "Здоровье и красота",
+      "description": "MEDUS 19 IZHEVSK RUS",
+      "amount": 39.0,
+      "currency": "RUB",
+      "balance_after": 8637.51
+    },
+    {
+      "date": "2026-06-07",
+      "time": "12:31",
+      "type": "expense",
+      "category": "Прочие расходы",
+      "description": "SBER*5411*SAMOKAT SANKT-PETERBU RUS",
+      "amount": 387.0,
+      "currency": "RUB",
+      "balance_after": 8250.51
+    },
+    {
+      "date": "2026-06-08",
+      "time": "14:40",
+      "type": "expense",
+      "category": "Рестораны и кафе",
+      "description": "SPP 70307 IZHEVSK RUS",
+      "amount": 379.0,
+      "currency": "RUB",
+      "balance_after": 7871.51
+    },
+    {
+      "date": "2026-06-08",
+      "time": "14:56",
+      "type": "expense",
+      "category": "Супермаркеты",
+      "description": "TK Lenta-177 IZHEVSK RUS",
+      "amount": 131.59,
+      "currency": "RUB",
+      "balance_after": 7739.92
+    },
+    {
+      "date": "2026-06-08",
+      "time": "16:06",
+      "type": "expense",
+      "category": "Прочие расходы",
+      "description": "SBER*5411*SAMOKAT SANKT-PETERBU RUS",
+      "amount": 357.0,
+      "currency": "RUB",
+      "balance_after": 7382.92
+    },
+    {
+      "date": "2026-06-08",
+      "time": "18:43",
+      "type": "expense",
+      "category": "Супермаркеты",
+      "description": "MAGNIT MM NESTERKOVO IZHEVSK RUS",
+      "amount": 254.97,
+      "currency": "RUB",
+      "balance_after": 7127.95
+    },
+    {
+      "date": "2026-06-09",
+      "time": "08:52",
+      "type": "expense",
+      "category": "Рестораны и кафе",
+      "description": "KHLEBNICA IZHEVSK RUS",
+      "amount": 69.0,
+      "currency": "RUB",
+      "balance_after": 7058.95
+    },
+    {
+      "date": "2026-06-09",
+      "time": "08:54",
+      "type": "expense",
+      "category": "Транспорт",
+      "description": "IZHGET_TPP IZHEVSK RUS",
+      "amount": 45.0,
+      "currency": "RUB",
+      "balance_after": 7013.95
+    },
+    {
+      "date": "2026-06-09",
+      "time": "16:26",
+      "type": "expense",
+      "category": "Транспорт",
+      "description": "IZHGET_TPP IZHEVSK RUS",
+      "amount": 45.0,
+      "currency": "RUB",
+      "balance_after": 6968.95
+    },
+    {
+      "date": "2026-06-11",
+      "time": "14:14",
+      "type": "expense",
+      "category": "Рестораны и кафе",
+      "description": "RESTORAN MORE IZHEVSK RUS",
+      "amount": 350.0,
+      "currency": "RUB",
+      "balance_after": 6618.95
+    },
+    {
+      "date": "2026-06-11",
+      "time": "18:53",
+      "type": "expense",
+      "category": "Прочие расходы",
+      "description": "SBER*5411*SAMOKAT SANKT-PETERBU RUS",
+      "amount": 507.0,
+      "currency": "RUB",
+      "balance_after": 6111.95
+    },
+    {
+      "date": "2026-06-12",
+      "time": "19:38",
+      "type": "expense",
+      "category": "Супермаркеты",
+      "description": "MAGNIT MM NESTERKOVO IZHEVSK RUS",
+      "amount": 129.99,
+      "currency": "RUB",
+      "balance_after": 5981.96
+    },
+    {
+      "date": "2026-06-13",
+      "time": "08:58",
+      "type": "expense",
+      "category": "Перевод СБП",
+      "description": "Перевод для С. Иван Альбертович",
+      "amount": 2200.0,
+      "currency": "RUB",
+      "balance_after": 3781.96
+    },
+    {
+      "date": "2026-06-14",
+      "time": "14:09",
+      "type": "expense",
+      "category": "Прочие расходы",
+      "description": "SBER*5411*SAMOKAT SANKT-PETERBU RUS",
+      "amount": 457.0,
+      "currency": "RUB",
+      "balance_after": 3324.96
+    },
+    {
+      "date": "2026-06-14",
+      "time": "20:49",
+      "type": "expense",
+      "category": "Супермаркеты",
+      "description": "MAGNIT MM NESTERKOVO IZHEVSK RUS",
+      "amount": 601.93,
+      "currency": "RUB",
+      "balance_after": 2723.03
+    },
+    {
+      "date": "2026-06-15",
+      "time": "15:40",
+      "type": "expense",
+      "category": "Транспорт",
+      "description": "IZHGET_TPP IZHEVSK RUS",
+      "amount": 45.0,
+      "currency": "RUB",
+      "balance_after": 2678.03
+    },
+    {
+      "date": "2026-06-15",
+      "time": "17:28",
+      "type": "expense",
+      "category": "Транспорт",
+      "description": "IZHGET_TPP IZHEVSK RUS",
+      "amount": 45.0,
+      "currency": "RUB",
+      "balance_after": 2633.03
+    },
+    {
+      "date": "2026-06-15",
+      "time": "18:03",
+      "type": "expense",
+      "category": "Супермаркеты",
+      "description": "PYATEROCHKA 19588 IZHEVSK RUS",
+      "amount": 468.36,
+      "currency": "RUB",
+      "balance_after": 2164.67
+    },
+    {
+      "date": "2026-06-15",
+      "time": "19:10",
+      "type": "expense",
+      "category": "Оплата по QR–коду СБП",
+      "description": "МТС Оплата Tools",
+      "amount": 78.0,
+      "currency": "RUB",
+      "balance_after": 2086.67
+    },
+    {
+      "date": "2026-06-15",
+      "time": "22:02",
+      "type": "income",
+      "category": "Прочие операции",
+      "description": "SBERBANK ONL@IN VKLAD-KARTA P2P",
+      "amount": 5000.0,
+      "currency": "RUB",
+      "balance_after": 7086.67
+    },
+    {
+      "date": "2026-06-15",
+      "time": "22:06",
+      "type": "expense",
+      "category": "Перевод с карты",
+      "description": "Перевод для Г. Леонид Олегович",
+      "amount": 4000.0,
+      "currency": "RUB",
+      "balance_after": 3086.67
+    },
+    {
+      "date": "2026-06-16",
+      "time": "15:53",
+      "type": "expense",
+      "category": "Супермаркеты",
+      "description": "VKUSVILL_6697_KCO_4 IZHEVSK RUS",
+      "amount": 274.0,
+      "currency": "RUB",
+      "balance_after": 2812.67
+    },
+    {
+      "date": "2026-06-18",
+      "time": "13:36",
+      "type": "expense",
+      "category": "Оплата по QR–коду СБП",
+      "description": "SPP 23102_SBP_A",
+      "amount": 355.0,
+      "currency": "RUB",
+      "balance_after": 2457.67
+    },
+    {
+      "date": "2026-06-18",
+      "time": "15:28",
+      "type": "expense",
+      "category": "Перевод с карты",
+      "description": "АО \"TБанк\"",
+      "amount": 1015.0,
+      "currency": "RUB",
+      "balance_after": 1442.67
+    },
+    {
+      "date": "2026-06-18",
+      "time": "15:51",
+      "type": "income",
+      "category": "Перевод на карту",
+      "description": "Перевод от К. Татьяна Александровна",
+      "amount": 5000.0,
+      "currency": "RUB",
+      "balance_after": 6442.67
+    },
+    {
+      "date": "2026-06-18",
+      "time": "17:00",
+      "type": "expense",
+      "category": "Перевод СБП",
+      "description": "Перевод в T-Bank",
+      "amount": 600.0,
+      "currency": "RUB",
+      "balance_after": 5842.67
+    },
+    {
+      "date": "2026-06-20",
+      "time": "10:49",
+      "type": "expense",
+      "category": "Прочие расходы",
+      "description": "SBER*5411*SAMOKAT SANKT-PETERBU RUS",
+      "amount": 546.0,
+      "currency": "RUB",
+      "balance_after": 5296.67
+    },
+    {
+      "date": "2026-06-20",
+      "time": "11:34",
+      "type": "expense",
+      "category": "Супермаркеты",
+      "description": "MAGNIT MM NESTERKOVO IZHEVSK RUS",
+      "amount": 592.94,
+      "currency": "RUB",
+      "balance_after": 4703.73
+    },
+    {
+      "date": "2026-06-20",
+      "time": "13:44",
+      "type": "expense",
+      "category": "Супермаркеты",
+      "description": "KRASNOE&BELOE IZHEVSK RUS",
+      "amount": 28.89,
+      "currency": "RUB",
+      "balance_after": 4674.84
+    },
+    {
+      "date": "2026-06-21",
+      "time": "12:35",
+      "type": "expense",
+      "category": "Транспорт",
+      "description": "IZHGET_TPP IZHEVSK RUS",
+      "amount": 45.0,
+      "currency": "RUB",
+      "balance_after": 4629.84
+    },
+    {
+      "date": "2026-06-22",
+      "time": "11:25",
+      "type": "expense",
+      "category": "Все для дома",
+      "description": "MELOFON-MALAKHIT IZHEVSK RUS",
+      "amount": 1542.0,
+      "currency": "RUB",
+      "balance_after": 3087.84
+    },
+    {
+      "date": "2026-06-22",
+      "time": "15:18",
+      "type": "expense",
+      "category": "Оплата по QR–коду СБП",
+      "description": "ТОО \"ОнлиПэй\"",
+      "amount": 149.0,
+      "currency": "RUB",
+      "balance_after": 2938.84
+    },
+    {
+      "date": "2026-06-22",
+      "time": "16:52",
+      "type": "expense",
+      "category": "Оплата по QR–коду СБП",
+      "description": "SBSCR_Sota Connect",
+      "amount": 10.0,
+      "currency": "RUB",
+      "balance_after": 2928.84
+    },
+    {
+      "date": "2026-06-23",
+      "time": "12:11",
+      "type": "expense",
+      "category": "Супермаркеты",
+      "description": "KRISTALNAYA VODA DOST IZHEVSK RUS",
+      "amount": 825.0,
+      "currency": "RUB",
+      "balance_after": 2103.84
+    },
+    {
+      "date": "2026-06-23",
+      "time": "13:35",
+      "type": "income",
+      "category": "Перевод на карту",
+      "description": "Перевод от К. Алексей Юрьевич",
+      "amount": 35000.0,
+      "currency": "RUB",
+      "balance_after": 37103.84
+    },
+    {
+      "date": "2026-06-23",
+      "time": "17:28",
+      "type": "expense",
+      "category": "Транспорт",
+      "description": "IZHGET_TPP IZHEVSK RUS",
+      "amount": 45.0,
+      "currency": "RUB",
+      "balance_after": 37058.84
+    },
+    {
+      "date": "2026-06-24",
+      "time": "14:16",
+      "type": "expense",
+      "category": "Все для дома",
+      "description": "DNS IZHEVSK RUS",
+      "amount": 1699.0,
+      "currency": "RUB",
+      "balance_after": 35359.84
+    },
+    {
+      "date": "2026-06-24",
+      "time": "16:45",
+      "type": "expense",
+      "category": "Транспорт",
+      "description": "IPOPAT_TPP IZHEVSK RUS",
+      "amount": 45.0,
+      "currency": "RUB",
+      "balance_after": 35314.84
+    },
+    {
+      "date": "2026-06-24",
+      "time": "21:36",
+      "type": "expense",
+      "category": "Перевод СБП",
+      "description": "Перевод для С. Иван Альбертович",
+      "amount": 1500.0,
+      "currency": "RUB",
+      "balance_after": 33814.84
+    },
+    {
+      "date": "2026-06-28",
+      "time": "18:12",
+      "type": "expense",
+      "category": "Прочие расходы",
+      "description": "SBER*5411*SAMOKAT SANKT-PETERBU RUS",
+      "amount": 577.0,
+      "currency": "RUB",
+      "balance_after": 33237.84
+    },
+    {
+      "date": "2026-06-28",
+      "time": "18:56",
+      "type": "expense",
+      "category": "Все для дома",
+      "description": "GALAMART IZHEVSK RUS",
+      "amount": 79.0,
+      "currency": "RUB",
+      "balance_after": 33158.84
+    },
+    {
+      "date": "2026-06-28",
+      "time": "18:59",
+      "type": "expense",
+      "category": "Супермаркеты",
+      "description": "PYATEROCHKA 19588 IZHEVSK RUS",
+      "amount": 649.98,
+      "currency": "RUB",
+      "balance_after": 32508.86
+    },
+    {
+      "date": "2026-06-29",
+      "time": "10:03",
+      "type": "income",
+      "category": "Перевод на карту",
+      "description": "Перевод от К. Татьяна Александровна",
+      "amount": 5000.0,
+      "currency": "RUB",
+      "balance_after": 37508.86
+    },
+    {
+      "date": "2026-06-29",
+      "time": "10:54",
+      "type": "expense",
+      "category": "Прочие расходы",
+      "description": "FAVORIT IZHEVSK RUS",
+      "amount": 69.0,
+      "currency": "RUB",
+      "balance_after": 37439.86
+    },
+    {
+      "date": "2026-06-29",
+      "time": "14:38",
+      "type": "expense",
+      "category": "Транспорт",
+      "description": "IPOPAT_TPP IZHEVSK RUS",
+      "amount": 45.0,
+      "currency": "RUB",
+      "balance_after": 37394.86
+    },
+    {
+      "date": "2026-06-29",
+      "time": "23:03",
+      "type": "income",
+      "category": "Перевод СБП",
+      "description": "Перевод от Э. Вячеслав Александрович",
+      "amount": 600.0,
+      "currency": "RUB",
+      "balance_after": 37994.86
+    },
+    {
+      "date": "2026-06-30",
+      "time": "14:40",
+      "type": "expense",
+      "category": "Супермаркеты",
+      "description": "KOFEYNAYA KANTATA IZHEVSK RUS",
+      "amount": 789.36,
+      "currency": "RUB",
+      "balance_after": 37205.5
+    },
+    {
+      "date": "2026-06-30",
+      "time": "14:41",
+      "type": "expense",
+      "category": "Прочие расходы",
+      "description": "KHOLMOGOROVA 11 IZHEVSK RUS",
+      "amount": 130.0,
+      "currency": "RUB",
+      "balance_after": 37075.5
+    }
+  ]
+}
