@@ -1,5 +1,4 @@
 import sys
-import io
 import re
 
 sys.stdout.reconfigure(encoding="utf-8")
