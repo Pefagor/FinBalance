@@ -4,7 +4,6 @@ import json
 import sys
 from pypdf import PdfReader
 
-# Принимаем аргументы: python parser.py <input.pdf> <output.json>
 if len(sys.argv) < 3:
     print("Использование: python parser.py <input.pdf> <output.json>")
     sys.exit(1)
@@ -30,7 +29,6 @@ categoryword = {
 
 
 def amount(amounttext):
-
     amounttext = (
         amounttext
         .replace("\xa0", "")
@@ -41,12 +39,10 @@ def amount(amounttext):
 
     return float(amounttext)
 
-
 def operation_type(amounttext):
     if amounttext.strip().startswith("+"):
         return "доход"
     return "расход"
-
 
 def transaction_category(bank_category):
     if bank_category in categoryword:
@@ -55,14 +51,12 @@ def transaction_category(bank_category):
         return "переводы"
     return "прочее"
 
-
 def clean(description):
     description = re.sub(
         r"\.?\s*Операция по (карте|счету).*", "", description,
         flags=re.IGNORECASE
     )
     return description.strip(" .")
-
 
 def recipient_type(bank_category, operation):
     category_lower = bank_category.lower()
@@ -74,7 +68,6 @@ def recipient_type(bank_category, operation):
     if operation == "расход":
         return "organization"
     return "organization"
-
 
 def get_recipient(description):
     return description
@@ -94,7 +87,6 @@ transaction_re = re.compile(
     r"([\d\xa0 ]+,\d{2})$"
 )
 
-
 def transaction(PDFfile, user_id):
     reader = PdfReader(str(PDFfile))
     lines = []
@@ -108,31 +100,22 @@ def transaction(PDFfile, user_id):
 
 
     transactions = []
-
     transaction_counter = 1
-
     i = 0
-
 
     while i < len(lines):
         match = transaction_re.match(lines[i])
         if not match:
             i += 1
             continue
-
         date, time, bank_category, amount_text, balance = match.groups()
-
         description_parts = []
-
         i += 1
-
 
         if i < len(lines):
             auth_match = format_re.match(lines[i])
             if auth_match:
-                description_parts.append(
-                    auth_match.group(1)
-                )
+                description_parts.append(auth_match.group(1))
                 i += 1
                 while i < len(lines):
                     next_line = lines[i]
@@ -149,30 +132,12 @@ def transaction(PDFfile, user_id):
                     description_parts.append(next_line)
                     i += 1
 
-
         full_description = " ".join(description_parts)
         clean_text = clean(full_description)
-
-
-        current_operation_type = operation_type(
-            amount_text
-        )
-
-        category = transaction_category(
-            bank_category
-        )
-
-
-        type_of_recipient = recipient_type(
-            bank_category,
-            current_operation_type
-        )
-
-
-        recipient = get_recipient(
-            clean_text
-        )
-
+        current_operation_type = operation_type(amount_text)
+        category = transaction_category(bank_category)
+        type_of_recipient = recipient_type(bank_category, current_operation_type)
+        recipient = get_recipient(clean_text)
         current_transaction = {
             "transaction_id": transaction_counter,
             "user_id": user_id,
@@ -186,30 +151,15 @@ def transaction(PDFfile, user_id):
             "recipient": recipient,
             "description": clean_text
         }
-
-
-        transactions.append(
-            current_transaction
-        )
+        transactions.append(current_transaction)
         transaction_counter += 1
-
-
     return transactions
 
-
-transactions = transaction(
-    PDFfile,
-    user_id
-)
+transactions = transaction(PDFfile, user_id)
 
 
-with open(
-    output_path, "w", encoding="utf-8"
-    ) as file:
-
-    json.dump(
-        transactions, file, ensure_ascii=False, indent=4
-    )
+with open(output_path, "w", encoding="utf-8") as file:
+    json.dump(transactions, file, ensure_ascii=False, indent=4)
 
 
 print("Парсинг завершён!")
